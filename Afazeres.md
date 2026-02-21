@@ -1,6 +1,6 @@
 # Scopo do Projeto
 
-## Login
+## Login 
 - Tela de Login focado em Mobile Fist e PWA
 - Cadastro novo também na tela de login
 
@@ -15,3 +15,6 @@ Importante: Garantir que seja seguro segundo a ISO 27001 e 27002
 # Lista de afazeres dividos por tarefas
 
 ## Tela de Login
+**Lucas** 
+
+

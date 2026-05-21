@@ -1,0 +1,57 @@
+/* =========================================
+   GymTracker PWA - Estilos Globais
+   Design System Simples e Variáveis de CSS
+   ========================================= */
+
+:root {
+  /* Paleta de Cores: Dark Mode Profissional */
+  --bg-color: #121214;
+  --bg-card: #202024;
+  --text-primary: #E1E1E6;
+  --text-secondary: #A8A8B3;
+  --brand-color: #00B37E; /* Verde Academia */
+  --brand-hover: #00875F;
+  --danger-color: #F75A68;
+  
+  /* Espaçamentos e Bordas */
+  --border-radius: 8px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; /* Remove "Piscada Azul" ao clicar em PWA (Mobile) */
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.5;
+  
+  /* Mantém o app ajustado à tela móvel sem rolagem horizontal indesejada */
+  min-height: 100vh; 
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: background-color 0.2s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Utilitário PWA: Evitar seleção de texto como em Apps Nativos */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
